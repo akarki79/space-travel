@@ -1,0 +1,22 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Home – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Space Travel Service Interaction Design
+      </h1>{{releaseVersion | log }}
+      <p>Please click on the link below to start the interaction.</p>
+      <p>
+        <a href="destination">Start prototype</a>
+      </p>
+    </div>
+  </div>
+
+{% endblock %}
