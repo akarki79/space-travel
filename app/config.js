@@ -6,6 +6,12 @@ module.exports = {
   // Service name used in header. Eg: 'Renew your passport'
   serviceName: 'Space Travel Service',
 
+  // URL for heroku app (used in footer)
+  herokuURL: 'https://prototype-space-travel.herokuapp.com/',
+
+  // URL for GIT repo (used in footer)
+  herokuURL: 'https://github.com/akarki79/space-travel',
+
   // Default port that prototype runs on
   port: '3000',
 
